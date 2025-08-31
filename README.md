@@ -1,6 +1,6 @@
 # CarEase: Simplifying Auto Trading with AI
 
-![CarEase Logo](public/images/CarEase-icon.png)
+![CarEase Logo](public/images/logo.png)
 
 CarEase is an intelligent platform designed to make buying and selling cars **smarter, faster, and more transparent**. Leveraging AI technology, it assists users in price negotiation, provides real-time suggestions, and facilitates seamless communication between buyers and sellers.
 
@@ -30,3 +30,83 @@ CarEase is an intelligent platform designed to make buying and selling cars **sm
 
 ## 🛠️ Project Structure
 
+```
+
+public/
+┣ images/
+┃ ┣ car-bg.jpg
+┃ ┗ CarEase-icon.png
+src/
+┣ assets/
+┃ ┣ css/
+┃ ┃ ┣ Header.css
+┃ ┃ ┗ Main.css
+┣ components/
+┃ ┣ Header.jsx
+┃ ┣ Main.jsx
+┃ ┗ AboutCard.jsx
+┣ App.jsx
+┗ index.jsx
+
+````
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository**  
+```bash
+git clone https://github.com/Smb2003/FYP-Project-CAR-EASE-Simplifying-Auto-Trading-with-AI.git
+````
+
+2. **Navigate to the project folder**
+
+```bash
+cd car-ease
+```
+
+3. **Install dependencies**
+
+```bash
+npm install
+```
+
+4. **Start the development server**
+
+```bash
+npm run dev
+```
+
+* The application will be running at `http://localhost:5173`.
+
+---
+
+## 🖌️ Technologies Used
+
+* **React.js** – Frontend library for building UI
+* **Bootstrap** – Responsive design and layout
+* **CSS3** – Custom styling for hero, cards, about, services, and footer sections
+* **Vite** – Build tool for fast development
+
+---
+
+## 📢 Future Enhancements
+
+* Integrate **AI chatbot** for live car price negotiation
+* Add **user authentication** and profile management
+* Expand **database integration** for dynamic listings
+* Implement **search & filter** functionality for cars
+
+---
+
+## 📞 Contact
+
+**Project Author:** Isbah Ansari
+**Email:** \[[your-email@example.com](mailto:your-email@example.com)]
+**GitHub:** [https://github.com/isbahansariii](https://github.com/isbahansariii)
+
+---
+
+**CarEase** – Making Auto Trading Smarter, Faster, and Easier 🚗💨
+
+```
