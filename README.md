@@ -99,14 +99,6 @@ npm run dev
 
 ---
 
-## 📞 Contact
-
-**Project Author:** Isbah Ansari
-**Email:** \[[your-email@example.com](mailto:your-email@example.com)]
-**GitHub:** [https://github.com/isbahansariii](https://github.com/isbahansariii)
-
----
-
 **CarEase** – Making Auto Trading Smarter, Faster, and Easier 🚗💨
 
 ```
