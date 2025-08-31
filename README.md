@@ -1,16 +1,32 @@
-<<<<<<< HEAD
-# React + Vite
+# CarEase: Simplifying Auto Trading with AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![CarEase Logo](public/images/CarEase-icon.png)
 
-Currently, two official plugins are available:
+CarEase is an intelligent platform designed to make buying and selling cars **smarter, faster, and more transparent**. Leveraging AI technology, it assists users in price negotiation, provides real-time suggestions, and facilitates seamless communication between buyers and sellers.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌟 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# FYP-Project-CAR-EASE-Simplifying-Auto-Trading-with-AI
->>>>>>> 5c972cc4cc7026f01b4f293c525cdcc647594138
+- **AI-Powered Price Negotiation**: Get smart suggestions for optimal pricing.
+- **Real-Time Recommendations**: Instant tips for both buyers and sellers.
+- **Seamless Communication**: Chat directly with AI or other users for smooth transactions.
+- **Secure & Transparent Transactions**: Ensuring trust and reliability in every deal.
+- **Easy Car Listings**: Quick and hassle-free listing of vehicles for sale.
+- **User-Friendly Interface**: Modern and responsive UI built with React and Bootstrap.
+
+---
+
+## 🎨 Frontend
+
+- Built with **React.js**
+- **Bootstrap** & custom CSS for responsive design
+- Eye-catching **Hero Section** with faded background image and central call-to-action
+- Car detail **Cards** showcasing images, pricing, and descriptions
+- **About & Services Section** with clean layouts and numbering for clarity
+- **Footer** with gradient background for a professional finish
+
+---
+
+## 🛠️ Project Structure
+
