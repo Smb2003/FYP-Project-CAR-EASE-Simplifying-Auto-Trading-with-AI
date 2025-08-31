@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.about-us-section h2 {
+  font-family: "Droid Serif", serif;
+  color: #38b6ff;
+  text-align: center;
+}
+
+/* Default: mobile first - 1 column */
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  justify-items: stretch; /* stretch items to full width */
+}
+
+.service-point {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%; /* full width on mobile */
+  max-width: 600px; /* optional for large screens */
+  margin: 0 auto; /* center in small screens */
+}
+
+.service-number {
+  width: 40px;
+  height: 40px;
+  background-color: #38b6ff;
+  color: black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-family: 'Droid Serif', serif;
+  flex-shrink: 0;
+}
+
+.service-text {
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+/* Medium and up: 2 columns */
+@media (min-width: 768px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 40px; /* vertical + horizontal gap */
+    justify-items: stretch; /* stretch items */
+  }
+
+  .service-point {
+    max-width: none; /* allow full width in column */
+    margin: 0; /* remove auto margin for 2-column alignment */
+  }
+}

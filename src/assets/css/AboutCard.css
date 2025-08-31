@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Droid+Serif:wght@700&family=Poppins&display=swap");
+
+.about-card {
+  border: 2px solid #38b6ff;
+  border-radius: 10px;
+  background-color: #fff;
+  max-width: 700px;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.about-card:hover {
+  box-shadow: 5px 5px 10px #ffeb3b, -5px -5px 10px #ffeb3b;
+  cursor: pointer;
+  transition: box-shadow 0.5s ease-in-out 0s;
+}
+
+.about-card-body {
+  padding: 15px 20px;
+  margin-right: 50px;
+}
+
+.about-name {
+  font-family: "Droid Serif", serif;
+  font-weight: 700;
+  color: #38b6ff;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.about-description {
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.about-card-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+/* Number badge */
+.about-number {
+  font-family: "Droid Serif", serif;
+  font-weight: 900;
+  background-color: #ffeb3b; /* yellow */
+  color: #000; /* black */
+
+  font-size: 2rem;
+  padding: 20px;
+
+  height: 5rem;
+  width: 5rem;
+
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top: 50%;
+  right: -40px; /* slightly outside card */
+  transform: translateY(-50%);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 900px) {
+  .about-name {
+    font-size: 1.3rem;
+  }
+  .about-description {
+    font-size: 0.85rem;
+    line-height: 1.2;
+  }
+  .about-card-img {
+    width: 120px;
+    height: 100px;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-number {
+    top: 10%;
+    left: -5%;
+  }
+  
+  .about-card-body {
+    margin-right: 0;
+  }
+}

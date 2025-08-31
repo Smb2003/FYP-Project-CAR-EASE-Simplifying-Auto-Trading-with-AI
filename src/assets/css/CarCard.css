@@ -1,0 +1,36 @@
+/* optional spacing and hover effects */
+.card img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+}
+
+.card .btn {
+    font-weight: 500;
+  flex: 1;
+  margin: 0 2px;
+}
+
+.card{
+    padding: 0;
+}
+
+.description{
+    height: 4rem;
+}
+
+.details{
+    border-width: 2px !important;
+}
+
+.margin{
+    margin: 10px 0;
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Droid+Serif:wght@700&family=Poppins&display=swap');
+
+
+.hero-section {
+  padding-top: 70px; /*header sizse is 60px*/
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: url("/car-bg.jpg") no-repeat center center/cover;
+  overflow-x: hidden;
+  margin-bottom: 3rem;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.55); /* fade effect */
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+
+/* Remove margin/padding from root to avoid left/right gaps */
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Heading font and color */
+.content h1 {
+  font-family: 'Droid Serif', serif;
+  font-weight: 700;
+  color: #38b6ff;
+}
+
+/* Slogan font */
+.content h3 {
+  font-family: 'Droid Serif', serif;
+  color: #38b6ff;
+}
+
+/* Paragraph font */
+.content p {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.8rem;
+  font-size: 1rem;
+  color: #fff;
+}
+
+/* Button color */
+.content .btn {
+  background-color: #38b6ff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: black;
+  /* border: none; */
+}
+
+.content .btn:hover {
+  background-color: #2a8fd4; /* slightly darker on hover */
+}
+
+
